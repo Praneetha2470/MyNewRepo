@@ -1,0 +1,52 @@
+/* Body styles: set background, text color, and font for the entire page */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333;              /* Dark gray text color */
+  font-family: Arial, sans-serif; /* Use Arial, with sans-serif as a fallback */
+  margin: 0;                /* Remove default body margin */
+  padding: 20px;            /* Add some padding around the content */
+}
+
+/* Heading styles: target <h1> and <h2> elements */
+h1 {
+  color: #007bff;          /* Blue color for main headings */
+  text-align: center;      /* Center the text horizontally */
+  border-bottom: 2px solid #007bff; /* Add a blue border to the bottom */
+  padding-bottom: 10px;    /* Space between text and border */
+}
+
+h2 {
+  color: #28a745;          /* Green color for subheadings */
+  font-size: 1.5rem;       /* Set font size using 'rem' units */
+}
+
+/* Paragraph styles: target <p> elements */
+p {
+  line-height: 1.5;        /* Increase space between lines of text */
+  font-size: 1rem;         /* Set a standard font size */
+}
+
+/* Class selector: target elements with class="container" */
+.container {
+  max-width: 800px;        /* Limit container width */
+  margin: 0 auto;          /* Center the container on the page */
+  background-color: #fff;  /* White background for the container */
+  padding: 20px;           /* Add padding inside the container */
+  border-radius: 8px;      /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a subtle shadow */
+}
+
+/* ID selector: target the element with id="main-button" */
+#main-button {
+  background-color: #dc3545; /* Red background for the button */
+  color: white;              /* White text */
+  padding: 10px 20px;        /* Space inside the button */
+  border: none;              /* Remove default border */
+  cursor: pointer;           /* Change cursor to a hand pointer on hover */
+  font-size: 16px;           /* Set font size */
+}
+
+/* Pseudo-class selector: change button style when a user hovers over it */
+#main-button:hover {
+  background-color: #c82333; /* Slightly darker red on hover */
+}
